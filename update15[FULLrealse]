@@ -1,0 +1,181 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+local Window = Library.Main("PROTON[v15]", "L") -- change "L" to the key that you want to hide the GUI
+
+--//tab
+local Tab1 = Window.NewTab("PROTON HUB")
+
+--//section
+local Section1 = Tab1.NewSection("HOME 🏡")
+
+--// Button
+local Button1 = Section1.NewButton("OUR WHATSAPPCANNEL", function()
+    set.clipboard("https://whatsapp.com/channel/0029VaIcDmzF1YlZTerEHu1J")
+end)
+
+--//Toggles
+local EnabledToggle1 = Section1.NewToggle("Enabled Toggle", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub", true))()
+end, true) -- "true" is the default value of toggle
+
+local DisabledToggle1 = Section1.NewToggle("Disabled Toggle", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Devkigz/v5/main/v5hub", true))()
+end, false) -- "false" is the default value of toggle
+
+local SliderPrecise1 = Section1.NewSlider("Slider precise", 0, 100, true, function(value)
+    -- Do something with the value
+end, 25)
+
+local SliderNotPrecise1 = Section1.NewSlider("Slider not precise", 0, 100, false, function(value)
+    -- Do something with the value
+end, 75)
+
+--//tab
+local Tab2 = Window.NewTab("BLADE BALL THING")
+
+--//section
+local Section2 = Tab2.NewSection("BDOL HUB?!?")
+
+--// Button
+local Button2 = Section2.NewButton("BDOL HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end)
+
+--//Toggles
+local EnabledToggle2 = Section2.NewToggle("Enabled Toggle", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end, true) -- "true" is the default value of toggle
+
+local DisabledToggle2 = Section2.NewToggle("Disabled Toggle", function(bool)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab3 = Window.NewTab("BROOKHAVEN")
+
+--//section
+local Section3 = Tab3.NewSection("BROOKHAVEN THINGS")
+
+--// Button
+local Button3 = Section3.NewButton("on other one", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Kyke785/PROTONV12/main/V12", true))()
+end)
+
+--// Button
+local Button3_2 = Section3.NewButton("icehub HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven", true))()
+end)
+
+--//Toggles
+local EnabledToggle3 = Section3.NewToggle("TRY?!?!", function(bool)
+    -- Notification code here
+end, true) -- "true" is the default value of toggle
+
+local DisabledToggle3 = Section3.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local Tab4 = Window.NewTab("PRISON LIFE TROLL 😆")
+
+--//section
+local Section4 = Tab4.NewSection("CAN GET KICK∆")
+
+--// Button
+local Button4 = Section4.NewButton("pristine prison life", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/d5BS5qiX"))()
+end)
+
+--//Toggles
+local EnabledToggle4 = Section4.NewToggle("Enabled Toggle", function(bool)
+    -- code here
+end, true) -- "true" is the default value of toggle
+
+local DisabledToggle4 = Section4.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local TabCredit = Window.NewTab("CREDIT")
+
+--//section
+local SectionCredit = TabCredit.NewSection("CREDITS TO @luascripts")
+
+--//tab
+local TabOthers = Window.NewTab("OTHERS OP SCRIPT")
+
+--//section
+local SectionOthers = TabOthers.NewSection("OP HUBS , GUI_S")
+
+--// Button
+local ButtonAimbot = SectionOthers.NewButton("Aim bot", function()
+    -- Aimbot script here
+end)
+
+--//tab
+local TabFruis = Window.NewTab("blox fruis")
+
+--//section
+local SectionFruis = TabFruis.NewSection("blox script")
+
+--// Button
+local ButtonHohoHub = SectionFruis.NewButton("hoho hub mby", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+--//Toggles
+local EnabledToggleFruis = SectionFruis.NewToggle("", function(bool)
+    -- code here
+end, true) -- "true" is the default value of toggle
+
+local DisabledToggleFruis = SectionFruis.NewToggle("Disabled Toggle", function(bool)
+    -- code here
+end, false) -- "false" is the default value of toggle
+
+--//tab
+local TabHacks = Window.NewTab("universal hacks")
+
+--//section
+local SectionHacksFly = TabHacks.NewSection("fly hack")
+
+--// Button
+local ButtonFlyGui = SectionHacksFly.NewButton("fly gui v3", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+--//section
+local SectionHacksUniversal = TabHacks.NewSection("universal")
+
+--// Button
+local ButtonKeyboardGui = SectionHacksUniversal.NewButton("keyboard gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+--//section
+local SectionHacksPiano = TabHacks.NewSection("piano games")
+
+--// Button
+local ButtonAutoPianoPlayer = SectionHacksPiano.NewButton("auto piano player", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/VBfHKC86WxpXyIgr/iwiwiejsaIwidi/main/iaowjdhd.lua", true))()
+end)
+
+--//tab
+local TabBackDoor = Window.NewTab("BACK DOOR")
+
+--//section
+local SectionBackDoor = TabBackDoor.NewSection("GOOFY")
+
+--// Button
+local ButtonBackDoorScript = SectionBackDoor.NewButton("BACK DOOR SCRIPT", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/v8/src/main.lua"))()
+end)
+
+--//tab
+local TabUpdates = Window.NewTab("updates")
+
+--//section
+local SectionUpdates = TabUpdates.NewSection("updateV15")
+
+--// Button
+local ButtonOpUpdate = SectionUpdates.NewButton("OP UPDATE WITH A NEW BACKDOOR", function()
+    -- Update script here
+end)
